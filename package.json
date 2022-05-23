@@ -1,0 +1,20 @@
+{
+  "name": "gatsby-github-pages",
+  "version": "1.0.0",
+  "description": "gatsby-github-pages",
+  "main": "server.js",
+  "scripts": {
+    "build": "gatsby build",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "harshareddy7797",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^4.14.1",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
