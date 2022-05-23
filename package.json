@@ -4,6 +4,7 @@
   "description": "gatsby-github-pages",
   "main": "server.js",
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -15,6 +16,7 @@
     "slugify": "^1.6.5"
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "nodemon": "^2.0.16"
   }
 }
